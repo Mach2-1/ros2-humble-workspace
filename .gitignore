@@ -1,0 +1,56 @@
+# =========================
+# ROS2 build artifacts
+# =========================
+ros2_ws/build/
+ros2_ws/install/
+ros2_ws/log/
+
+# =========================
+# Python cache
+# =========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+
+# =========================
+# CMake / build files
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+compile_commands.json
+
+# =========================
+# VS Code
+# =========================
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# =========================
+# System files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# ROS runtime / temp
+# =========================
+*.log
+
+# =========================
+# Backup / editor files
+# =========================
+*~
+*.swp
+*.swo
+
+# =========================
+# Linux
+# =========================
+.nfs*
